@@ -14,7 +14,7 @@
         {
             "name": "Chrome JS debug",
             "request": "launch",
-            "type": "chrome",
+            "type": "msedge",
             "file": "${workspaceFolder}/run_js.html",
             "preLaunchTask": "HaxeActiveConf"
         }

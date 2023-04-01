@@ -14,12 +14,36 @@
                 "$haxe-trace"
             ],
             "presentation": {
-                "reveal": "never",
+                "reveal": "never"
             },
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
+            }
         },
+        {
+            "type": "haxe",
+            "args": "active configuration",
+            "problemMatcher": [
+                "$haxe-absolute",
+                "$haxe",
+                "$haxe-error",
+                "$haxe-trace"
+            ],
+            "group": "build",
+            "label": "haxe: active configuration"
+        },
+        {
+            "type": "hxml",
+            "file": "build.directx.hxml",
+            "problemMatcher": [
+                "$haxe-absolute",
+                "$haxe",
+                "$haxe-error",
+                "$haxe-trace"
+            ],
+            "group": "build",
+            "label": "haxe: build.directx.hxml"
+        }
     ]
 }
